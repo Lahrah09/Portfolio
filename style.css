@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top{
+    background:peru ;
+    max-height: 100px;
+    margin-bottom: 0;
+}
+.tophead{
+    background: peru;
+    max-height: 100px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5%;
+}
+.nav{
+    background-color:aliceblue ;
+    max-height: 150px;
+}
+.ul{
+    list-style: none;
+    width: 100%;
+    background-color: aliceblue;
+    padding: 1% 5%;
+}
+li{
+    display: inline-block;
+    position: relative;
+}
+a{
+    padding: 11px 14px;
+    text-decoration: none;
+}
